@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:D3LPI}",
+            "name": "Debug D3LPI",
+            "target": "D3LPI",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug D3LPI"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:D3LPI}",
+            "name": "Release D3LPI",
+            "target": "D3LPI",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release D3LPI"
+        }
+    ]
+}
